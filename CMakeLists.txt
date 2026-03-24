@@ -7,10 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_compile_options(-Wall -Wextra)
 
-add_executable(
+add_executable(engine
     src/main.cpp
     src/tensor.cpp
 )
 
 target_include_directories(engine PRIVATE src)
-
